@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+.legend div {
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.legend div span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.legend .depth-0-10 span {
+  background-color: #fee5d9;
+}
+
+.legend .depth-10-30 span {
+  background-color: #fcbba1;
+}
+
+.legend .depth-30-50 span {
+  background-color: #fc9272;
+}
+
+.legend .depth-50-70 span {
+  background-color: #fb6a4a;
+}
+
+.legend .depth-70-100 span {
+  background-color: #de2d26;
+}
+
+.legend .depth-100 span {
+  background-color: #a50f15;
+}
+.info.legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
